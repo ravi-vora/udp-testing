@@ -1,0 +1,120 @@
+{"level":30,"time":1689068647827,"pid":11556,"hostname":"RaviVora","msg":"Redis connection established successfully ✔ pid : 11556"}
+{"level":30,"time":1689068647833,"pid":11556,"hostname":"RaviVora","msg":"Server is running on port: 5000 with pid: 11556 successfully ✔"}
+{"level":30,"time":1689068647836,"pid":11556,"hostname":"RaviVora","msg":"Socket connection established successfully ✔ pid : 11556"}
+{"level":30,"time":1689068647837,"pid":11556,"hostname":"RaviVora","msg":"checked: Database, Redis, HttpServer, Socket connection ✔"}
+{"level":30,"time":1689068647837,"pid":11556,"hostname":"RaviVora","msg":"__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__"}
+{"level":30,"time":1689068670965,"pid":11556,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689068670969,"pid":11556,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689068670970,"pid":11556,"hostname":"RaviVora","msg":"waitingStateTimerCancel job: "}
+{"level":30,"time":1689068670972,"pid":11556,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689068670985,"pid":11556,"hostname":"RaviVora","msg":"match expire timer started"}
+{"level":30,"time":1689068670988,"pid":11556,"hostname":"RaviVora","msg":"match expires soon timer started"}
+{"level":30,"time":1689068676077,"pid":11556,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689068676079,"pid":11556,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689068676081,"pid":11556,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689068676086,"pid":11556,"hostname":"RaviVora","msg":"found caching..."}
+{"level":30,"time":1689068708016,"pid":11556,"hostname":"RaviVora","msg":"player Kill ______1"}
+{"level":30,"time":1689068708019,"pid":11556,"hostname":"RaviVora","msg":"Player Position ___2"}
+{"level":30,"time":1689068708036,"pid":11556,"hostname":"RaviVora","gameId":"G_d9723d6b-1f11-44ab-a874-6155cc17344d","dead":{"id":"P_d0cb880f-ca29-4497-9410-63b19a2b5f1d","userId":"1","socketId":"O5unTiUj54oNhXcrAAAB","gameId":"G_d9723d6b-1f11-44ab-a874-6155cc17344d","isWaiting":false,"isRejoin":false,"deadCount":1,"killCount":0,"health":0,"playerGun":4,"gunAmmoCount":500,"gunMaxAmmoCount":500,"gunFireRate":4,"gunDamageRate":5,"isRematch":false,"playerPosition":6,"playerCloth":2,"match_slug":"1f0b194e-7b3e-4b42-bdce-cff030fc56a8","inFull":true,"grenades":3,"winAmount":300,"createdAt":"2023-07-11T09:44:20.583Z","updatedAt":"2023-07-11T09:44:20.583Z","lastPosition":"none","isKill":true},"killedBy":{"id":"P_efaa55fa-973b-4511-b0db-9b03537d1433","userId":"2","socketId":"MDtNR6btsB3vIDg_AAAD","gameId":"G_d9723d6b-1f11-44ab-a874-6155cc17344d","isWaiting":false,"isRejoin":false,"deadCount":0,"killCount":1,"health":100,"playerGun":3,"gunAmmoCount":500,"gunMaxAmmoCount":500,"gunFireRate":4,"gunDamageRate":5,"isRematch":false,"playerPosition":5,"playerCloth":5,"match_slug":"1f0b194e-7b3e-4b42-bdce-cff030fc56a8","inFull":true,"grenades":3,"winAmount":300,"createdAt":"2023-07-11T09:44:23.801Z","updatedAt":"2023-07-11T09:44:23.801Z","lastPosition":"none","isKill":false},"deadPosition":"(1.73, 53.77, 0.00)","randomizePosition":7,"en":"HEALTH_UPDATE"}
+{"level":30,"time":1689068713060,"pid":11556,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689068713060,"pid":11556,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:15:13 GMT+0530 (India Standard Time) [gameStartTimer] Job completed with output result :: "}
+{"level":30,"time":1689068713060,"pid":11556,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689068936000,"pid":11556,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689068936000,"pid":11556,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:18:56 GMT+0530 (India Standard Time) [gameExpireSoonTimer] Job completed with output result :: "}
+{"level":30,"time":1689068936000,"pid":11556,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689068970991,"pid":11556,"hostname":"RaviVora","msg":":::::::::::: FULL RUNNING game finished ::::::::::::"}
+{"level":30,"time":1689068970993,"pid":11556,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689068970995,"pid":11556,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689068970998,"pid":11556,"hostname":"RaviVora","msg":"Finilize game :::::::::::::::::::::"}
+{"level":30,"time":1689068971002,"pid":11556,"hostname":"RaviVora","msg":"rematchTimerQueue_Q : "}
+{"level":30,"time":1689068971005,"pid":11556,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689068971005,"pid":11556,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:19:31 GMT+0530 (India Standard Time) [gameExpireTimer] Job completed with output result :: "}
+{"level":30,"time":1689068971005,"pid":11556,"hostname":"RaviVora","msg":""}
+{"level":50,"time":1689068991012,"pid":11556,"hostname":"RaviVora","err":{"type":"Error","message":"LOGIC BROKE :: 3 -> trying to end the rematch timer that should not be running!","stack":"Error: LOGIC BROKE :: 3 -> trying to end the rematch timer that should not be running!\n    at file:///D:/Artoon/mini-militia-latest/mini-militia-3-games-nodejs/dist/bull/jobs/rematchTimer.job.js:80:37\n    at Generator.next (<anonymous>)\n    at fulfilled (file:///D:/Artoon/mini-militia-latest/mini-militia-3-games-nodejs/dist/bull/jobs/rematchTimer.job.js:8:58)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"},"msg":"LOGIC BROKE :: 3 -> trying to end the rematch timer that should not be running!"}
+{"level":30,"time":1689068991014,"pid":11556,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689068991014,"pid":11556,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:19:51 GMT+0530 (India Standard Time) [gameStartTimer] Job completed with output result :: "}
+{"level":30,"time":1689068991014,"pid":11556,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069015460,"pid":3988,"hostname":"RaviVora","msg":"Redis connection established successfully ✔ pid : 3988"}
+{"level":30,"time":1689069015467,"pid":3988,"hostname":"RaviVora","msg":"Server is running on port: 5000 with pid: 3988 successfully ✔"}
+{"level":30,"time":1689069015470,"pid":3988,"hostname":"RaviVora","msg":"Socket connection established successfully ✔ pid : 3988"}
+{"level":30,"time":1689069015470,"pid":3988,"hostname":"RaviVora","msg":"checked: Database, Redis, HttpServer, Socket connection ✔"}
+{"level":30,"time":1689069015470,"pid":3988,"hostname":"RaviVora","msg":"__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__"}
+{"level":30,"time":1689069030471,"pid":3988,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689069030475,"pid":3988,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069030476,"pid":3988,"hostname":"RaviVora","msg":"waitingStateTimerCancel job: "}
+{"level":30,"time":1689069030478,"pid":3988,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069030493,"pid":3988,"hostname":"RaviVora","msg":"match expire timer started"}
+{"level":30,"time":1689069030497,"pid":3988,"hostname":"RaviVora","msg":"match expires soon timer started"}
+{"level":30,"time":1689069030931,"pid":3988,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689069030934,"pid":3988,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069030935,"pid":3988,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069030941,"pid":3988,"hostname":"RaviVora","msg":"found caching..."}
+{"level":30,"time":1689069035752,"pid":3988,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689069035754,"pid":3988,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069035756,"pid":3988,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069035761,"pid":3988,"hostname":"RaviVora","msg":"found caching..."}
+{"level":30,"time":1689069071072,"pid":3988,"hostname":"RaviVora","msg":"player Kill ______1"}
+{"level":30,"time":1689069071074,"pid":3988,"hostname":"RaviVora","msg":"kill player Event payload "}
+{"level":30,"time":1689069071076,"pid":3988,"hostname":"RaviVora","msg":"found playersSlugData : "}
+{"level":30,"time":1689069071077,"pid":3988,"hostname":"RaviVora","msg":"new random positions : "}
+{"level":30,"time":1689069071090,"pid":3988,"hostname":"RaviVora","gameId":"G_c109aee2-de62-4341-845e-69aae82fca80","dead":{"id":"P_e1746c5a-73be-4550-ba0a-80250ad36a8f","userId":"1","socketId":"9TCjEgqPuYFSlHpdAAAB","gameId":"G_c109aee2-de62-4341-845e-69aae82fca80","isWaiting":false,"isRejoin":false,"deadCount":1,"killCount":0,"health":0,"playerGun":0,"gunAmmoCount":500,"gunMaxAmmoCount":500,"gunFireRate":2,"gunDamageRate":5,"isRematch":false,"playerPosition":3,"playerCloth":1,"match_slug":"9842d7ec-bc4f-418e-899c-b774a694307d","inFull":true,"grenades":3,"winAmount":300,"createdAt":"2023-07-11T09:50:19.333Z","updatedAt":"2023-07-11T09:50:19.333Z","lastPosition":"none","isKill":true},"killedBy":{"id":"P_07b00341-e76a-4f22-9d1b-3908eb38ffbb","userId":"2","socketId":"tXz5kcQa2W7qh-y1AAAD","gameId":"G_c109aee2-de62-4341-845e-69aae82fca80","isWaiting":false,"isRejoin":false,"deadCount":0,"killCount":1,"health":100,"playerGun":0,"gunAmmoCount":500,"gunMaxAmmoCount":500,"gunFireRate":2,"gunDamageRate":5,"isRematch":false,"playerPosition":4,"playerCloth":3,"match_slug":"9842d7ec-bc4f-418e-899c-b774a694307d","inFull":true,"grenades":3,"winAmount":300,"createdAt":"2023-07-11T09:50:23.621Z","updatedAt":"2023-07-11T09:50:23.621Z","lastPosition":"none","isKill":false},"deadPosition":"(1.73, 53.77, 0.00)","randomizePosition":7,"en":"HEALTH_UPDATE"}
+{"level":30,"time":1689069076107,"pid":3988,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069076108,"pid":3988,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:21:16 GMT+0530 (India Standard Time) [gameStartTimer] Job completed with output result :: "}
+{"level":30,"time":1689069076108,"pid":3988,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069161364,"pid":7524,"hostname":"RaviVora","msg":"Redis connection established successfully ✔ pid : 7524"}
+{"level":30,"time":1689069161373,"pid":7524,"hostname":"RaviVora","msg":"Server is running on port: 5000 with pid: 7524 successfully ✔"}
+{"level":30,"time":1689069161376,"pid":7524,"hostname":"RaviVora","msg":"Socket connection established successfully ✔ pid : 7524"}
+{"level":30,"time":1689069161376,"pid":7524,"hostname":"RaviVora","msg":"checked: Database, Redis, HttpServer, Socket connection ✔"}
+{"level":30,"time":1689069161377,"pid":7524,"hostname":"RaviVora","msg":"__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__"}
+{"level":30,"time":1689069179302,"pid":7524,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689069179306,"pid":7524,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069179307,"pid":7524,"hostname":"RaviVora","msg":"waitingStateTimerCancel job: "}
+{"level":30,"time":1689069179309,"pid":7524,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069179329,"pid":7524,"hostname":"RaviVora","msg":"match expire timer started"}
+{"level":30,"time":1689069179331,"pid":7524,"hostname":"RaviVora","msg":"match expires soon timer started"}
+{"level":30,"time":1689069184675,"pid":7524,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689069184677,"pid":7524,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069184678,"pid":7524,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689069184683,"pid":7524,"hostname":"RaviVora","msg":"found caching..."}
+{"level":30,"time":1689069206650,"pid":7524,"hostname":"RaviVora","msg":"player Kill ______1"}
+{"level":30,"time":1689069206652,"pid":7524,"hostname":"RaviVora","msg":"kill player Event payload "}
+{"level":30,"time":1689069206670,"pid":7524,"hostname":"RaviVora","gameId":"G_00d07d02-0f54-416a-b32d-d0de0c603a2e","dead":{"id":"P_5b34b7b0-99f9-4327-ac34-c476103c9cd9","userId":"1","socketId":"87a_9Qm7ebgJZ6aoAAAB","gameId":"G_00d07d02-0f54-416a-b32d-d0de0c603a2e","isWaiting":false,"isRejoin":false,"deadCount":1,"killCount":0,"health":0,"playerGun":0,"gunAmmoCount":500,"gunMaxAmmoCount":500,"gunFireRate":2,"gunDamageRate":5,"isRematch":false,"playerPosition":7,"playerCloth":1,"match_slug":"6694749e-0ebc-4faf-a87d-b4d2bf7599c7","inFull":true,"grenades":3,"winAmount":300,"createdAt":"2023-07-11T09:52:47.646Z","updatedAt":"2023-07-11T09:52:47.646Z","lastPosition":"none","isKill":true},"killedBy":{"id":"P_db39c5e0-99c5-4e88-8df7-6c0c4dfc322d","userId":"2","socketId":"m19UX3LrC_H8kDz3AAAD","gameId":"G_00d07d02-0f54-416a-b32d-d0de0c603a2e","isWaiting":false,"isRejoin":false,"deadCount":0,"killCount":1,"health":100,"playerGun":3,"gunAmmoCount":500,"gunMaxAmmoCount":500,"gunFireRate":4,"gunDamageRate":5,"isRematch":false,"playerPosition":5,"playerCloth":2,"match_slug":"6694749e-0ebc-4faf-a87d-b4d2bf7599c7","inFull":true,"grenades":3,"winAmount":300,"createdAt":"2023-07-11T09:52:50.652Z","updatedAt":"2023-07-11T09:52:50.652Z","lastPosition":"none","isKill":false},"deadPosition":"(1.73, 53.77, 0.00)","randomizePosition":6,"en":"HEALTH_UPDATE"}
+{"level":30,"time":1689069211681,"pid":7524,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069211681,"pid":7524,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:23:31 GMT+0530 (India Standard Time) [gameStartTimer] Job completed with output result :: "}
+{"level":30,"time":1689069211682,"pid":7524,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069444340,"pid":7524,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069444341,"pid":7524,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:27:24 GMT+0530 (India Standard Time) [gameExpireSoonTimer] Job completed with output result :: "}
+{"level":30,"time":1689069444341,"pid":7524,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069479347,"pid":7524,"hostname":"RaviVora","msg":":::::::::::: FULL RUNNING game finished ::::::::::::"}
+{"level":30,"time":1689069479349,"pid":7524,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689069479351,"pid":7524,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689069479353,"pid":7524,"hostname":"RaviVora","msg":"Finilize game :::::::::::::::::::::"}
+{"level":30,"time":1689069479356,"pid":7524,"hostname":"RaviVora","msg":"rematchTimerQueue_Q : "}
+{"level":30,"time":1689069479358,"pid":7524,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069479359,"pid":7524,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:27:59 GMT+0530 (India Standard Time) [gameExpireTimer] Job completed with output result :: "}
+{"level":30,"time":1689069479359,"pid":7524,"hostname":"RaviVora","msg":""}
+{"level":50,"time":1689069499363,"pid":7524,"hostname":"RaviVora","err":{"type":"Error","message":"LOGIC BROKE :: 3 -> trying to end the rematch timer that should not be running!","stack":"Error: LOGIC BROKE :: 3 -> trying to end the rematch timer that should not be running!\n    at file:///D:/Artoon/mini-militia-latest/mini-militia-3-games-nodejs/dist/bull/jobs/rematchTimer.job.js:80:37\n    at Generator.next (<anonymous>)\n    at fulfilled (file:///D:/Artoon/mini-militia-latest/mini-militia-3-games-nodejs/dist/bull/jobs/rematchTimer.job.js:8:58)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"},"msg":"LOGIC BROKE :: 3 -> trying to end the rematch timer that should not be running!"}
+{"level":30,"time":1689069499365,"pid":7524,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069499365,"pid":7524,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:28:19 GMT+0530 (India Standard Time) [gameStartTimer] Job completed with output result :: "}
+{"level":30,"time":1689069499365,"pid":7524,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689069987335,"pid":8500,"hostname":"RaviVora","msg":"Redis connection established successfully ✔ pid : 8500"}
+{"level":30,"time":1689069987341,"pid":8500,"hostname":"RaviVora","msg":"Server is running on port: 5000 with pid: 8500 successfully ✔"}
+{"level":30,"time":1689069987344,"pid":8500,"hostname":"RaviVora","msg":"Socket connection established successfully ✔ pid : 8500"}
+{"level":30,"time":1689069987344,"pid":8500,"hostname":"RaviVora","msg":"checked: Database, Redis, HttpServer, Socket connection ✔"}
+{"level":30,"time":1689069987344,"pid":8500,"hostname":"RaviVora","msg":"__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__---__"}
+{"level":30,"time":1689070004859,"pid":8500,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689070004863,"pid":8500,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689070004865,"pid":8500,"hostname":"RaviVora","msg":"waitingStateTimerCancel job: "}
+{"level":30,"time":1689070004866,"pid":8500,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689070004880,"pid":8500,"hostname":"RaviVora","msg":"match expire timer started"}
+{"level":30,"time":1689070004883,"pid":8500,"hostname":"RaviVora","msg":"match expires soon timer started"}
+{"level":30,"time":1689070010108,"pid":8500,"hostname":"RaviVora","msg":"disconnetionTimerCancel data: "}
+{"level":30,"time":1689070010110,"pid":8500,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689070010111,"pid":8500,"hostname":"RaviVora","msg":"waitingStateTimerCancel data: "}
+{"level":30,"time":1689070010117,"pid":8500,"hostname":"RaviVora","msg":"found caching..."}
+{"level":30,"time":1689070035315,"pid":8500,"hostname":"RaviVora","msg":"player Kill ______1"}
+{"level":30,"time":1689070035317,"pid":8500,"hostname":"RaviVora","msg":"kill player Event payload "}
+{"level":30,"time":1689070035334,"pid":8500,"hostname":"RaviVora","gameId":"G_0eae80f4-65d0-4d45-a9bf-14253dd5a8e7","dead":{"id":"P_50c88c87-aa54-4905-b5b1-027ab84574c2","userId":"1","socketId":"AMA5JJK_1XVT-YPIAAAB","gameId":"G_0eae80f4-65d0-4d45-a9bf-14253dd5a8e7","isWaiting":false,"isRejoin":false,"deadCount":1,"killCount":0,"health":0,"playerGun":0,"gunAmmoCount":500,"gunMaxAmmoCount":500,"gunFireRate":2,"gunDamageRate":5,"isRematch":false,"playerPosition":1,"playerCloth":5,"match_slug":"fd05c9ad-d8d9-4cd3-9d3f-218fa7c421b1","inFull":true,"grenades":3,"winAmount":300,"createdAt":"2023-07-11T10:06:34.759Z","updatedAt":"2023-07-11T10:06:34.759Z","lastPosition":"none","isKill":true},"killedBy":{"id":"P_e50399e7-f172-4351-8874-1ff42a3bf767","userId":"2","socketId":"USywnQGvjcPuK4BBAAAD","gameId":"G_0eae80f4-65d0-4d45-a9bf-14253dd5a8e7","isWaiting":false,"isRejoin":false,"deadCount":0,"killCount":1,"health":100,"playerGun":1,"gunAmmoCount":500,"gunMaxAmmoCount":500,"gunFireRate":2,"gunDamageRate":5,"isRematch":false,"playerPosition":5,"playerCloth":3,"match_slug":"fd05c9ad-d8d9-4cd3-9d3f-218fa7c421b1","inFull":true,"grenades":3,"winAmount":300,"createdAt":"2023-07-11T10:06:37.518Z","updatedAt":"2023-07-11T10:06:37.518Z","lastPosition":"none","isKill":false},"deadPosition":"(1.73, 53.77, 0.00)","randomizePosition":1,"en":"HEALTH_UPDATE"}
+{"level":30,"time":1689070040348,"pid":8500,"hostname":"RaviVora","msg":""}
+{"level":30,"time":1689070040349,"pid":8500,"hostname":"RaviVora","msg":">> Tue Jul 11 2023 15:37:20 GMT+0530 (India Standard Time) [gameStartTimer] Job completed with output result :: "}
+{"level":30,"time":1689070040349,"pid":8500,"hostname":"RaviVora","msg":""}

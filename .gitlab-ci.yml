@@ -1,0 +1,20 @@
+deploy_demo-production:
+ stage: deploy
+ tags:
+   - new-client-r2
+ environment:
+  name: demo-production
+  url: https://game3.artoon.in:7009 ##https://game3.artoon.in:PORT PORT = APP Port From ENV File
+ before_script:
+ - eval export PATH=/root/.nvm/versions/node/v17.9.0/bin:${PATH}
+ script:
+  - cd /home/node/udp-testing
+  - git pull http://gitlab.artoon.in/prototype-apps/udp-testing.git -f main ##GIT URL
+  - npm install
+  - npm run build
+ after_script:
+  - export PATH=$PATH:/root/.nvm/versions/node/v17.9.0/bin:${PATH}
+  - pm2 restart udp-testing
+ when: manual
+ only:
+  - main
